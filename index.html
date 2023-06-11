@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteudo">
+        <section class="informacao">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="mensagem">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <form class='formulario'>
+            <div class="item">
+                <input type="text" placeholder="Nome completo *" class="input">
+                <p class="alerta">campo obrigatório</p>
+            </div>
+            <div class="item">
+                <input type="email" placeholder="Email*" class="input">
+                <p class="alerta">campo obrigatório</p>
+            </div>
+            <div class="item">
+                <input type="tel" placeholder="Telefone *" class="input">
+                <p class="alerta">campo obrigatório</p>
+            </div>
+            <div class="item">
+                <textarea placeholder="Mensagem *" class="input"></textarea>
+                <p class="alerta">campo obrigatório</p>
+            </div>
+            <p>*campo obrigatório</p>
+            <input type="submit" class="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
